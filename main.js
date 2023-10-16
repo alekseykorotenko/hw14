@@ -5,11 +5,10 @@
 let sumNumber = 0;
 
 for (let i = 0; i < 3; i++) {
-  let userNum = Number(prompt('Enter first number'));
-  sumNumber += userNum;
+  sumNumber += Number(prompt('Enter first number'));
 }
 
-avgNumber = sumNumber / 3;
+let avgNumber = sumNumber / 3;
 
 // let avgNumber = (firstNumber + secondNumber + thirdNumber) / 3;
 
