@@ -8,8 +8,5 @@ for (let i = 0; i < 3; i++) {
   sumNumber += Number(prompt('Enter first number'));
 }
 
-let avgNumber = sumNumber / 3;
-
+alert(sumNumber / 3);
 // let avgNumber = (firstNumber + secondNumber + thirdNumber) / 3;
-
-alert(avgNumber);
